@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: hsl(36, 100%, 99%);
+  padding: 2rem;
+  color: hsl(240, 100%, 5%);
+  margin: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: hsl(236, 13%, 42%);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: hsl(35, 77%, 62%);
+  transition: 0.3s;
+}
+
+#main-itens {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+#box {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+#box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.manchete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.manchete h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  width: 40%;
+}
+
+.conteudo-manchete {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.conteudo-manchete p {
+  font-size: 1.25rem;
+  color: hsl(236, 13%, 42%);
+  margin-left: 3rem;
+  line-height: 1.6;
+  width: 80%;
+}
+
+.conteudo-manchete button {
+  background-color: hsl(5, 85%, 63%);
+  color: hsl(240, 100%, 5%);
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  margin-left: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.conteudo-manchete button:hover {
+  background-color: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  transition: 0.3s;
+} 
+
+#new {
+  flex: 1;
+  background-color: hsl(240, 100%, 5%);
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#new h1 {
+  font-size: 3.5rem;
+  color: hsl(35, 77%, 62%);
+  margin-bottom: 1rem;
+}
+
+#new h3 {
+  color: hsl(36, 100%, 99%);
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#new h3:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.3s;
+}
+
+#new p {
+  color: hsl(233, 8%, 79%);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.new-item {
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+#trending {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 4rem;
+}
+
+#trending h1 {
+  font-size: 2.5rem;
+  color: hsl(240, 100%, 5%);
+}
+
+.trending-item {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding-bottom: 1rem;
+}
+
+.trending-item img {
+  width: 130px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.trending-text {
+  flex: 1;
+}
+
+.trending-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: hsl(5, 85%, 63%);
+}
+
+.trending-text h3 {
+  font-size: 1.2rem;
+  color: hsl(240, 100%, 5%);
+  margin-bottom: 0.5rem;
+}
+
+.trending-text h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.trending-text h3 a:hover {
+  color: hsl(5, 85%, 63%);
+  transition: 0.3s;
+}
+
+.trending-text p {
+  color: hsl(236, 13%, 42%);
+  font-size: 1rem;
+  line-height: 2;
+  width: 70%;
+}
